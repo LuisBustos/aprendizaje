@@ -1,0 +1,16 @@
+NE,NV,Precio,Descuento
+<=4,Buenas,<=150,si
+>4,Buenas,>150,si
+>4,Buenas,<=150,si
+<=4,Buenas,>150,si
+>4,Buenas,>150,si
+>4,Bajas,>150,si
+<=4,Bajas,>150,no
+<=4,Bajas,>150,si
+>4,Bajas,<=150,si
+<=4,Bajas,<=150,no
+<=4,Promedio,<=150,no
+>4,Promedio,<=150,no
+<=4,Promedio,>150,si
+>4,Promedio,>150,si
+>4,Promedio,<=150,no
